@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroFit.health+survey.in</title>
+    <link  rel="stylesheet" href="/NeuroFitsurvey.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Anton&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: x-large;
+  text-align: center;
+  align-items: center;
+  margin-left: 0px;
+  padding-top: 0px;
+
+}
+
+
+
+nav{
+  position: fixed;
+  background-color: steelblue;
+  color:beige;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+  height: 11.5%;
+
+}
+.logo0 {
+          border-radius: 50%;
+          height: 40px;
+          width: 40px;
+          /* margin: 5px 5px; */
+          margin: 4px 5px;
+          border: 2px solid steelblue;
+}
+
+.logo1 {
+          padding-left: 0px;
+          margin: 0.313rem 0.313rem;
+      }
+nav .menu{
+  max-width: 1250px;
+  background: steelblue;
+  color: beige;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  
+}
+.menu .logo a{
+  text-decoration: none ;
+  color:beige;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.menu ul{
+  display: inline-flex;   
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;   
+}
+.menu ul li a{
+  text-decoration: none;
+  color: beige;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3 ease;
+
+}
+.menu ul li a:hover{
+  background-color: beige;
+  color: steelblue;
+}
+
+.sec1{
+  background-color: #add8e6;
+  color: rgb(36, 36, 36);
+}
+
+
+
+.radio-container{
+  font-size: smaller;
+}
+input[type="radio"] {
+  display: none;  
+}
+label {
+  padding: 10px 20px;
+  border: 1px solid rgb(61, 61, 61);
+  border-radius: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;  
+}
+input[type="radio"]:checked + label {
+  background-color: #007f0a;  
+  color: white; 
+}
+
+.c1{
+  background-color: #add8e6;
+  color: rgb(61, 61, 61);
+  text-align: left;
+  height: 200px;
+  
+}
+
+.submitbutton {
+  background-color: #3e3e3e; /* add a green background color */
+  padding: 15px 30px; /* increase the size of the button */
+  font-size: larger; /* increase the text size */
+  color: beige; /* set the text color to white */
+  border: none; /* remove the border */
+  border-radius: 50px; /* add a slight rounded corner */
+  cursor: pointer; /* change the cursor to a pointing hand on hover */
+}
+
+.submitbutton:hover {
+  background-color: #b3b3b3; /* change the background color on hover */
+  color: black; /* change the text color on hover */
+}
+.warn{
+  font-size: large;
+}
+    </style>
+</head>
+<body>
+    <nav>
+      
+        <div class="menu">
+          <div class="logo1">
+            <img src="https://media.istockphoto.com/id/1345196386/vector/n-monogram-n-letter-as-azure-ribbon-on-dark-background.jpg?s=612x612&w=0&k=20&c=5BH_i9ms-3vVk5GW_9CYztdHbkXolOp5VH2MH-7Hm1E="
+                    alt="" class="logo0">
+            </div>
+            <div class="logo">
+                <a href="#">NeuroFit</a>
+            </div>
+            <ul>
+              <li><a href="/SE.html">HOME</a></li>
+              <li class="item"><a href="AboutUs.html">ABOUT US</a></li>
+              <li class="item"><a href="https://www.justdial.com/Jabalpur/Psychologist-Doctors/nct-10941606">FIND A THERAPISTS</a></li>
+              <li class="item"><a href="/ContactUs.html">CONTACT US</a></li> 
+    
+            </ul>
+        </div>
+       </nav><br>
+       <br>
+    <section class="sec1">
+
+
+        <form><br><br>
+
+            
+
+
+        <div id="d1">
+            <b>Using the key below, answer the question based on how strongly you AGREE or DISAGREE with the
+            statement. </b>
+        </div>
+        <br>
+        
+        <br>
+
+        <div class="allque">
+            <div class="first">
+
+
+                <div id="d3" class="que">
+                    <p> 1. I feel Overwhelmed by my emotions. </p><br>
+                    <div class="tex">
+                        <div class="radio-container">
+                            <input type="radio" id="stronglydisagree1" name="emotion1" value="1" class="stronglydisagree">
+                            <label for="stronglydisagree1">Strongly Disagree</label>
+                          <br><br>
+                            <input type="radio" id="disagree1" name="emotion1" value="2" class="disagree">
+                            <label for="disagree1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disagree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="neutral1" name="emotion1" value="3" class="neutral">
+                            <label for="neutral1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neutral&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="agree1" name="emotion1" value="4" class="agree">
+                            <label for="agree1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <br><br>
+                            <input type="radio" id="stronglyagree1" name="emotion1" value="5" class="stronglyagree">
+                            <label for="stronglyagree1">&nbsp;&nbsp;&nbsp;Strongly Agree&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                          </div>
+                    </div>
+                </div><br><br>
+                <div id="d4" class="que">
+                    <p> 2. I am able to handle the level of stress I experience. </p><br>
+                    <div class="tex">
+                        <div class="radio-container">
+                            <input type="radio" id="stronglydisagree2" name="emotion2" value="1" class="stronglydisagree">
+                            <label for="stronglydisagree2">Strongly Disagree</label>
+                          <br><br>
+                            <input type="radio" id="disagree2" name="emotion2" value="2" class="disagree">
+                            <label for="disagree2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disagree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="neutral2" name="emotion2" value="3" class="neutral">
+                            <label for="neutral2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neutral&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="agree2" name="emotion2" value="4" class="agree">
+                            <label for="agree2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <br><br>
+                            <input type="radio" id="stronglyagree2" name="emotion2" value="5" class="stronglyagree">
+                            <label for="stronglyagree2">&nbsp;&nbsp;&nbsp;Strongly Agree&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                          </div>
+                    </div>
+                </div><br><br>
+                <div id="d5" class="que">
+                    <p> 3. I have physical symptons of anxiety, such as sweaty palms.</p><br>
+                    <div class="tex">
+                        <div class="radio-container">
+                            <input type="radio" id="stronglydisagree3" name="emotion3" value="1" class="stronglydisagree">
+                            <label for="stronglydisagree3">Strongly Disagree</label>
+                          <br><br>
+                            <input type="radio" id="disagree3" name="emotion3" value="2" class="disagree">
+                            <label for="disagree3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disagree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="neutral3" name="emotion3" value="3" class="neutral">
+                            <label for="neutral3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neutral&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="agree3" name="emotion3" value="4" class="agree">
+                            <label for="agree3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <br><br>
+                            <input type="radio" id="stronglyagree3" name="emotion3" value="5" class="stronglyagree">
+                            <label for="stronglyagree3">&nbsp;&nbsp;&nbsp;Strongly Agree&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                          </div>
+                    </div>
+                </div><br><br>
+
+
+            <div class="second">
+                <div id="d6" class="que">
+                    <p>4. I have strong relationships with people I care about. </p><br>
+                    <div class="tex">
+                        <div class="radio-container">
+                            <input type="radio" id="stronglydisagree4" name="emotion4" value="1" class="stronglydisagree">
+                            <label for="stronglydisagree4">Strongly Disagree</label>
+                          <br><br>
+                            <input type="radio" id="disagree4" name="emotion4" value="2" class="disagree">
+                            <label for="disagree4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disagree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="neutral4" name="emotion4" value="3" class="neutral">
+                            <label for="neutral4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neutral&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="agree4" name="emotion4" value="4" class="agree">
+                            <label for="agree4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <br><br>
+                            <input type="radio" id="stronglyagree4" name="emotion4" value="5" class="stronglyagree">
+                            <label for="stronglyagree4">&nbsp;&nbsp;&nbsp;Strongly Agree&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                          </div>
+                    </div>
+                </div><br><br>
+                <div id="d7" class="que">
+                    <p>5. I feel good about the choices I've made in my life. </p><br>
+                    <div class="tex">
+                        <div class="radio-container">
+                            <input type="radio" id="stronglydisagree5" name="emotion5" value="1" class="stronglydisagree">
+                            <label for="stronglydisagree5">Strongly Disagree</label>
+                          <br><br>
+                            <input type="radio" id="disagree5" name="emotion5" value="2" class="disagree">
+                            <label for="disagree5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disagree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="neutral5" name="emotion5" value="3" class="neutral">
+                            <label for="neutral5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neutral&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="agree5" name="emotion5" value="4" class="agree">
+                            <label for="agree5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <br><br>
+                            <input type="radio" id="stronglyagree5" name="emotion5" value="5" class="stronglyagree">
+                            <label for="stronglyagree5">&nbsp;&nbsp;&nbsp;Strongly Agree&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                          </div>
+                    </div>
+                </div><br><br>
+                <div id="d8" class="que">
+                    <p>6. I'm self-critical and engage in negative self-talk. </p><br>
+                    <div class="tex">
+                        <div class="radio-container">
+                            <input type="radio" id="stronglydisagree6" name="emotion6" value="1" class="stronglydisagree">
+                            <label for="stronglydisagree6">Strongly Disagree</label>
+                          <br><br>
+                            <input type="radio" id="disagree6" name="emotion6" value="2" class="disagree">
+                            <label for="disagree6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disagree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="neutral6" name="emotion6" value="3" class="neutral">
+                            <label for="neutral6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neutral&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="agree6" name="emotion6" value="4" class="agree">
+                            <label for="agree6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <br><br>
+                            <input type="radio" id="stronglyagree6" name="emotion6" value="5" class="stronglyagree">
+                            <label for="stronglyagree6">&nbsp;&nbsp;&nbsp;Strongly Agree&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                          </div>
+                    </div>
+                </div>
+            </div><br><br>
+            <div class="third">
+                <div id="d9" class="que">
+                    <p>7. I cannot get beyond long-past traumatic events or significant losses. </p><br>
+                    <div class="tex">
+                        <div class="radio-container">
+                            <input type="radio" id="stronglydisagree7" name="emotion7" value="1" class="stronglydisagree">
+                            <label for="stronglydisagree7">Strongly Disagree</label>
+                          <br><br>
+                            <input type="radio" id="disagree7" name="emotion7" value="2" class="disagree">
+                            <label for="disagree7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disagree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="neutral7" name="emotion7" value="3" class="neutral">
+                            <label for="neutral7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neutral&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="agree7" name="emotion7" value="4" class="agree">
+                            <label for="agree7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <br><br>
+                            <input type="radio" id="stronglyagree7" name="emotion7" value="5" class="stronglyagree">
+                            <label for="stronglyagree7">&nbsp;&nbsp;&nbsp;Strongly Agree&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                          </div>
+                    </div>
+                </div><br><br>
+                <div>
+                  <form action="/html/tags/html_form_tag_action.cfm" method="post">
+                    <p>8. In your own words, how has your mental health been lately?</p><br>
+                    <textarea class="c1" name="comments" id="comments">
+                    Your answer...
+                    </textarea><br>
+                    </form>
+                </div><br><br>
+                <div id="d10" class="que">
+                    <p>9. I am able to identify and express my emotions.</p><br>
+                    <div class="tex">
+                        <div class="radio-container">
+                            <input type="radio" id="stronglydisagree8" name="emotion8" value="1" class="stronglydisagree">
+                            <label for="stronglydisagree8">Strongly Disagree</label>
+                          <br><br>
+                            <input type="radio" id="disagree8" name="emotion8" value="2" class="disagree">
+                            <label for="disagree8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disagree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="neutral8" name="emotion8" value="3" class="neutral">
+                            <label for="neutral8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neutral&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="agree8" name="emotion8" value="4" class="agree">
+                            <label for="agree8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <br><br>
+                            <input type="radio" id="stronglyagree8" name="emotion8" value="5" class="stronglyagree">
+                            <label for="stronglyagree8">&nbsp;&nbsp;&nbsp;Strongly Agree&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                          </div>
+                    </div>
+                </div><br><br>
+                <div id="d11" class="que">
+                    <p> 10. I trust that if I confide in others, they will be supportive.</p><br>
+                    <div class="tex">
+                        <div class="radio-container">
+                            <input type="radio" id="stronglydisagree9" name="emotion9" value="1" class="stronglydisagree">
+                            <label for="stronglydisagree9">Strongly Disagree</label>
+                          <br><br>
+                            <input type="radio" id="disagree9" name="emotion9" value="2" class="disagree">
+                            <label for="disagree9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disagree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="neutral9" name="emotion9" value="3" class="neutral">
+                            <label for="neutral9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neutral&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="agree9" name="emotion9" value="4" class="agree">
+                            <label for="agree9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <br><br>
+                            <input type="radio" id="stronglyagree9" name="emotion9" value="5" class="stronglyagree">
+                            <label for="stronglyagree9">&nbsp;&nbsp;&nbsp;Strongly Agree&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                          </div>
+                    </div>
+                </div><br><br>
+            
+            <div class="fourth">
+                <div id="d12" class="que">
+                    <p>11. I engage in self-destructive behaviour such as drinking or drug use. </p><br>
+                    <div class="tex">
+                        <div class="radio-container">
+                            <input type="radio" id="stronglydisagree10" name="emotion10" value="1" class="stronglydisagree">
+                            <label for="stronglydisagree10">Strongly Disagree</label>
+                          <br><br>
+                            <input type="radio" id="disagree10" name="emotion10" value="2" class="disagree">
+                            <label for="disagree10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disagree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="neutral10" name="emotion10" value="3" class="neutral">
+                            <label for="neutral10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neutral&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="agree10" name="emotion10" value="4" class="agree">
+                            <label for="agree10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <br><br>
+                            <input type="radio" id="stronglyagree10" name="emotion10" value="5" class="stronglyagree">
+                            <label for="stronglyagree10">&nbsp;&nbsp;&nbsp;Strongly Agree&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                          </div>
+                    </div>
+                </div><br><br>
+                <div id="d13" class="que">
+                    <p> 12. I am lonely. </p><br>
+                    <div class="tex">
+                        <div class="radio-container">
+                            <input type="radio" id="stronglydisagree11" name="emotion11" value="1" class="stronglydisagree">
+                            <label for="stronglydisagree11">Strongly Disagree</label>
+                          <br><br>
+                            <input type="radio" id="disagree11" name="emotion11" value="2" class="disagree">
+                            <label for="disagree11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disagree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="neutral11" name="emotion11" value="3" class="neutral">
+                            <label for="neutral11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neutral&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="agree11" name="emotion11" value="4" class="agree">
+                            <label for="agree11">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <br><br>
+                            <input type="radio" id="stronglyagree11" name="emotion11" value="5" class="stronglyagree">
+                            <label for="stronglyagree11">&nbsp;&nbsp;&nbsp;Strongly Agree&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                          </div>
+                    </div>
+                </div><br><br>
+                <div id="d14" class="que">
+                    <p> 13. I get upset or angry easily. </p><br>
+                    <div class="tex">
+                        <div class="radio-container">
+                            <input type="radio" id="stronglydisagree12" name="emotion12" value="1" class="stronglydisagree">
+                            <label for="stronglydisagree12">Strongly Disagree</label>
+                          <br><br>
+                            <input type="radio" id="disagree12" name="emotion12" value="2" class="disagree">
+                            <label for="disagree12">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disagree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="neutral12" name="emotion12" value="3" class="neutral">
+                            <label for="neutral12">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neutral&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="agree12" name="emotion12" value="4" class="agree">
+                            <label for="agree12">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <br><br>
+                            <input type="radio" id="stronglyagree12" name="emotion12" value="5" class="stronglyagree">
+                            <label for="stronglyagree12">&nbsp;&nbsp;&nbsp;Strongly Agree&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                          </div>
+                    </div>
+                </div><br><br>
+            
+            <div class="fifth">
+                <div id="d15" class="que">
+                    <p> 14. I'm able to bounce back from setbacks. </p><br>
+                    <div class="tex">
+                        <div class="radio-container">
+                            <input type="radio" id="stronglydisagree13" name="emotion13" value="1" class="stronglydisagree">
+                            <label for="stronglydisagree13">Strongly Disagree</label>
+                          <br><br>
+                            <input type="radio" id="disagree13" name="emotion13" value="2" class="disagree">
+                            <label for="disagree13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disagree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="neutral13" name="emotion13" value="3" class="neutral">
+                            <label for="neutral13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neutral&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="agree13" name="emotion13" value="4" class="agree">
+                            <label for="agree13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <br><br>
+                            <input type="radio" id="stronglyagree13" name="emotion13" value="5" class="stronglyagree">
+                            <label for="stronglyagree13">&nbsp;&nbsp;&nbsp;Strongly Agree&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                          </div>
+                    </div>
+                </div><br><br>
+
+
+                <div id="d16" class="que">
+                    <p> 15. I feel like I am not living upto my own expectations or those of others. </p><br>
+                    <div class="tex">
+                        <div class="radio-container">
+                            <input type="radio" id="stronglydisagree14" name="emotion14" value="1" class="stronglydisagree">
+                            <label for="stronglydisagree14">Strongly Disagree</label>
+                          <br><br>
+                            <input type="radio" id="disagree14" name="emotion14" value="2" class="disagree">
+                            <label for="disagree14">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disagree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="neutral14" name="emotion14" value="3" class="neutral">
+                            <label for="neutral14">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neutral&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="agree14" name="emotion14" value="4" class="agree">
+                            <label for="agree14">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <br><br>
+                            <input type="radio" id="stronglyagree14" name="emotion14" value="5" class="stronglyagree">
+                            <label for="stronglyagree14">&nbsp;&nbsp;&nbsp;Strongly Agree&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                          </div>
+                    </div>
+                </div><br><br>
+                <div id="d17" class="que">
+                    <p> 16. I've noticed changes in my appetite or sleep patterns relative to when I was at my best. </p><br>
+                    <div class="tex">
+                        <div class="radio-container">
+                            <input type="radio" id="stronglydisagree15" name="emotion15" value="1" class="stronglydisagree">
+                            <label for="stronglydisagree15">Strongly Disagree</label>
+                          <br><br>
+                            <input type="radio" id="disagree15" name="emotion15" value="2" class="disagree">
+                            <label for="disagree15">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Disagree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="neutral15" name="emotion15" value="3" class="neutral">
+                            <label for="neutral15">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neutral&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                            <input type="radio" id="agree15" name="emotion15" value="4" class="agree">
+                            <label for="agree15">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Agree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                            <br><br>
+                            <input type="radio" id="stronglyagree15" name="emotion15" value="5" class="stronglyagree">
+                            <label for="stronglyagree15">&nbsp;&nbsp;&nbsp;Strongly Agree&nbsp;&nbsp;&nbsp;</label>
+                          <br><br>
+                          </div><br>
+                    </div>
+                </div><br><br>
+                <div>
+                  <form action="/html/tags/html_form_tag_action.cfm" method="post">
+                    <p>17. Is there anything in particular that you'd like to share about your experience?</p><br>
+                    <textarea class="c1" name="comments" id="comments">
+                    
+                    </textarea><br>
+                    </form>
+                </div><br><br>
+
+
+            </div>
+        </div>
+        <div>
+          <p class="warn">*Sumbit the answers to check your Mental Health status.</p>
+        </div><br>
+
+        <div>
+            <button type="button" class="submitbutton" id="submit" onclick="submit()">Submit</button><br><br><br><br><br>
+        </div>
+    </form>
+
+
+</section>
+
+</body>

@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    /* background-color: black; */
+}
+
+nav {
+    display: flex;
+    position: relative;
+    background-color: steelblue;
+    justify-content: space-between;
+	align-items: center;
+	margin: 0px auto;
+	padding: 0 0px;
+    height: 11.5%;
+}
+
+
+.logo {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    /* margin: 5px 5px; */
+    margin: 4px 5px;
+    border: 2px solid #add8e6;
+}
+
+.logo1 {
+    margin: 0.313rem 0.313rem;
+}
+
+.name{
+    color: beige;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-left: 0px;
+    padding-right: 700px;
+   
+    
+}
+
+.navbar {
+    display: flex;
+    /* background-color: rgba(0, 0, 0, 0.725); */
+
+}
+
+.navbar li a {
+    color: beige;
+	padding: 10px;
+	text-decoration: none;
+    font-size: 22px;
+   /* display: inline-flex;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 200px;*/
+    padding: 1px 18px;
+    /*font-size: larger;
+    color: rgb(255, 255, 255);
+    border: 2px solid #add8e6;
+    border-radius: 5px;
+    background-color: black;*/
+}
+
+.navbar li a:hover {
+    background-color: beige;
+    font-size: 22px;
+    color: steelblue;
+    /* border: 2px solid black; */
+    /*color: rgba(155, 203, 222, 0.863);*/
+    border-radius: 4px;
+    height: 50px
+}
+
+.navbar li {
+    list-style: none;
+}
+
+nav::before {
+    content: "";
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+    height: 100%;
+    background-color: beige;
+    z-index: -1;
+    opacity: 0.6;
+
+}
+
+/* section */
+
+
+.sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute;
+    top: 100px;
+    left: 200px; */
+
+    height: 315px;
+    padding: 0rem;
+    margin: 0rem;
+    /*background-color: beige;*/
+}
+
+section::before {
+    content: "";
+    position: absolute;
+    background-image: url("/man-jump-through-gap-hill-man-jumping-cliff-blue-sky-business-concept-idea.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+    height: 382px;
+    z-index: -1;
+    opacity: 0.9;
+    padding-top: 5px;
+}
+/*section::before {
+    content: "";
+    position: absolute;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs2chiZMvA9PdXYY0Mc4vxLpHcG8lOGo0FYw214_3Ylg&s");
+    /*background: url("https://img.freepik.com/free-photo/man-jump-through-gap-hill-man-jumping-cliff-blue-sky-business-concept-idea_1323-185.jpg?t=st=1715693397~exp=1715696997~hmac=eae54117eba81fea3ee5ed6e2198a6d0f1f308131d5cf663f3b927d527961aa3&w=1060") no-repeat center/cover;
+    /* background-image: url("https://c.wallhere.com/photos/2a/5e/food_vegetables_tomatoes_salad_Pepper_Garlic_Paprika-1949021.jpg!d"); 
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+    height: 382px;
+    z-index: -1;
+    opacity: 0.9;
+}*/
+
+.head1 {
+    margin: 5px 5px;
+    /* padding: 0px; */
+    font-size: 75px;
+    /* background-color: rgba(255, 255, 255, 0.514);
+
+    color: black; */
+    color:beige;
+}
+
+
+.sec p {
+    color: white;
+    font-size: 20px;
+}
+
+.surveybutton {
+    font-size: larger;
+    margin: 10px 8px;
+    padding: 4px 7px;
+    border: 2px solid #add8e6;
+    background-color: black;
+    color: beige;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.surveybutton a {
+    text-decoration: none;
+    color: black;
+}
+
+.surveybutton a:hover {
+    text-decoration: none;
+    color: beige;
+}
+
+.surveybutton:hover {
+    background-color: beige;
+    color: black;
+    border: 3.5px solid #add8e6;
+
+}
+
+.text {
+    text-align: center;
+    margin: 40px 10px;
+}
+
+.minhead {
+    font-size: 150%;
+    color: beige;
+}
+
+/* **********section 2********** */
+
+.sec3 {
+    background-color: beige;
+
+    height: 297px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+.sec3all {
+    display: flex;
+    background-color: #add8e6;
+    justify-content: space-evenly;
+    height: 297px;
+}
+
+.boxes {
+    width: 380px;
+    height: 220px;
+    border: 2px solid #add8e6;
+    margin: 15px 5px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px 2px #add8e6;
+    background-color: beige;
+    color: black;
+    
+}
+
+.boxes p {
+    margin: 5px 5px;
+}
+
+.boxes h2 {
+    margin: 3px 5px;
+    color: #add8e6;
+    font-size: 27px;
+}
+
+.img1 {
+    padding-top: 7px;
+    width: 360px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.img2 {
+    padding-top: 7px;
+    width: 360px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.img3 {
+    padding-top: 7px;
+    width: 360px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.blogs{
+    background-color: steelblue;
+    color: beige;
+    text-align: center;
+    font-size: x-large;
+}
+
+.section3{
+    background-color: #add8e6;
+    
+    
+}
+
+.blog1{
+   /* background-color: beige;*/
+    color: rgb(61, 61, 61);
+    text-align: center;
+    font-size: x-large;
+}
+.blog2{
+   /* background-color: beige;*/
+    color: rgb(61, 61, 61);
+    text-align: center;
+    font-size: x-large;
+}
+.blog3{
+    /*background-color: beige;*/
+    color: rgb(61, 61, 61);
+    text-align: center;
+    font-size: x-large;
+}
+.blog4{
+   /* background-color: beige;*/
+    color: rgb(61, 61, 61);
+    text-align: center;
+    font-size: x-large;
+}
+.blog5{
+    /*background-color: beige;*/
+    color: rgb(61, 61, 61);
+    text-align: center;
+    font-size: x-large;
+}
+
+/*fotter*/
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
